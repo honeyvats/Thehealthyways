@@ -1,0 +1,119 @@
+.nutrition-banner{
+    
+    padding-top:70px;
+    padding-bottom: 5px; 
+    margin: 0;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    text-align: center;
+}
+.nutrition-banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.mainheading{
+    font-variant: small-caps;
+    margin: 0px auto;
+    padding: 0px 0px;
+    display: flex;
+    box-sizing: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1250px;
+    text-align: center;
+    
+}
+hr{
+    max-width: 1250px;
+    text-align: center;
+}
+
+.box-1{
+    /* height: 500px; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1250px;
+    margin: 0px auto;
+}
+.box-2{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1250px;
+    margin: 0px auto;
+}
+.para-2{
+    padding: 0px 0px;
+    margin: 0px 30px;
+    text-align: left;
+}
+
+@media all and (max-width: 968px){
+
+    .nutrition-banner img{ 
+        padding-top: 0px;
+        padding-bottom: 5px; 
+        background-color: #ffffff;
+        margin: 0;
+        max-width: 100%;
+        object-fit: cover;
+        text-align: center;
+        }
+        
+        .foodfreedom{
+            font-variant: small-caps;
+            margin: 0px 10px;
+            padding: 0px 0px;
+            display: flex;
+            box-sizing: inherit;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 100%;
+            text-align: center;
+            
+        }
+        .heading{
+            font-variant: small-caps;
+            margin: 0px 0px;
+            padding: 0px 10px;
+            display: flex;
+            box-sizing: inherit;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        .box-1{
+            /* height: 500px; */
+            display: flex;
+            
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px 0px;
+        }
+        .box-2{
+            /* height: 500px; */
+            display: flex;
+            
+            align-items: left;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px 0px;
+        }
+        .box-1 img{
+            width: 150px;
+        }
+        .box-2 img{
+            width: 150px;
+        }
+        .subheading{
+            font-size: 25px;
+        }
+}

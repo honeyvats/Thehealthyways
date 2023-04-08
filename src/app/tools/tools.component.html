@@ -1,0 +1,31 @@
+<div class="tool-banner">
+    <img src="assets\photo\tool-banner.png" alt="">
+</div>
+
+<div class="BMI-heading">
+    <h1>BMI Calculator</h1>
+    <hr>
+</div>
+
+<div class="bg-img">
+    <!-- <img src="assets\photo\bmi weight1.png" alt=""> -->
+
+</div>
+<div class="centrum">
+    
+    <!-- <h1>BMI Calculator</h1> -->
+   
+    <h2>Weight</h2>
+    <input type="number" placeholder="Enter your weight in kg" [(ngModel)]="weight" />
+    <h2>Height</h2>
+    <input type="number" placeholder="Enter your height in Meters" [(ngModel)]="height" />
+    <h1 *ngIf="height != 0 && weight != 0">{{ calculateBMI() }}</h1>
+    <p class="para" *ngIf="height == 0 || weight == 0">
+      Type your weight and height to find out your BMI
+
+      
+      
+    </p>
+    
+
+  </div>

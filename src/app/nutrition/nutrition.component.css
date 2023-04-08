@@ -1,0 +1,396 @@
+
+.nutrition-banner{
+    
+    padding-top:70px;
+    padding-bottom: 5px; 
+    margin: 0;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    text-align: center;
+}
+.nutrition-banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.mainheading{
+    font-variant: small-caps;
+    margin: auto;
+    padding: 0px 0px;
+    display: flex;
+    box-sizing: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1250px;
+    text-align: center;
+    
+}
+.viewall{
+    max-width: 1250px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #02838d;
+    font-variant: small-caps;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    /* float: right; */
+    
+    
+}
+.heading{
+    font-variant: small-caps;
+    margin: auto;
+    padding: 0px 0px;
+    display: flex;
+    box-sizing: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1250px;
+    text-align: center;
+    
+}
+.box-1{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1250px;
+    margin: 0px auto;
+}
+.box-2{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1250px;
+    margin: 0px auto;
+    
+}
+.para-2{
+    padding: 0px 0px;
+    margin: 0px 30px;
+}
+
+                                                                 /* healthy eating in real life */
+
+.heading-2{
+    font-variant: small-caps;
+    margin: auto;
+    padding: 0px 0px;
+    display: flex;
+    box-sizing: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1250px;
+    text-align: center;
+}
+hr{
+    max-width: 1250px;
+    text-align: center;
+}
+.HERLmain-1{
+    display: flex;
+    flex-direction: row;
+    max-width: 1250px;
+    margin: auto;
+}
+.thumbnail{
+    margin: 0px 20px;
+}
+.HERL-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0px auto;
+    
+}
+.paras-1{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0px 10px;
+    padding: 0px;
+    max-width: 400px;
+}
+.HERLheading-1 {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: red;
+} 
+
+.HERLmain-2{
+    display: flex;
+    flex-direction: row;
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.HERL-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0px auto;
+    
+}
+.paras-2{
+    margin: 0px 10px;
+    padding: 0px;
+    max-width: 400px;
+}
+
+.HERL-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0px auto;
+    
+}
+.paras-3{
+    margin: 0px 10px;
+    padding: 0px;
+    max-width: 400px;
+}
+
+.HERL-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: 0px auto;
+    
+}
+.paras-4{
+    margin: 0px 10px;
+    padding: 0px;
+    max-width: 400px;
+}
+
+                                                             /* LOF STARTING */
+.LOFmain-1{
+    display: flex;
+    flex-direction: row;
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.LOFpara-1{
+    margin: 0px 20px;
+    padding: 0px;
+    max-width: 600px;
+
+}
+.LOFheading-1 {
+    text-decoration: none;
+    color: #000;
+}
+
+#button{
+    margin: auto;
+    max-width: 1250px;
+    text-align: left;
+    padding: 0px 0px;
+}
+    
+
+.button {
+    background-color: #5e0101; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.10s; /* Safari */
+    transition-duration: 0.10s;
+  }
+.button:hover {
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+@media all and (max-width: 968px){
+
+    .nutrition-banner img{ 
+        padding-top: 0px;
+        padding-bottom: 5px; 
+        background-color: #ffffff;
+        margin: 0;
+        max-width: 100%;
+        object-fit: cover;
+        text-align: center;
+        }
+        
+        .mainheading{
+            font-variant: small-caps;
+            margin: 0px 10px;
+            padding: 0px 0px;
+            display: flex;
+            box-sizing: inherit;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 100%;
+            text-align: center;
+            font-size: 29px;
+            
+        }
+        .heading{
+            font-variant: small-caps;
+            margin: 0px 0px;
+            padding: 0px 10px;
+            display: flex;
+            box-sizing: inherit;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        .heading-2{
+            font-variant: small-caps;
+            margin: 0px 0px;
+            padding: 0px 10px;
+            display: flex;
+            box-sizing: inherit;
+            justify-content: space-between;
+            flex-direction: row;
+            max-width: 100%;
+            text-align: left;
+            font-size: 18px;
+        }
+        .box-1{
+            
+            display: flex;
+            
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px 0px;
+        }
+        .box-2{
+            
+            display: flex;
+            
+            align-items: left;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px 0px;
+        }
+        .box-1 img{
+            width: 150px;
+        }
+        .box-2 img{
+            width: 150px;
+        }
+        .subheading{
+            font-size: 25px;
+        }
+
+        /* HERL STARTING */
+
+        .HERLmain-1{
+            display: grid;
+            grid-auto-flow: row;
+            max-width: 100%;
+            margin: 0px;
+            text-align: left;
+        
+        }
+        .HERL-1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px 0px;
+            
+        }
+        .HERL-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px auto;
+        }
+        .paras-2{
+            /* display: flex;
+            flex-direction: column; */
+            margin: 0px 10px;
+            padding: 0px;
+        }
+        .HERLmain-2{
+            display: grid;
+            grid-auto-flow: row;
+            max-width: 100%;
+            margin: 0px;
+            text-align: left;
+        
+        }
+        .HERL-3{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px auto;
+        }
+        .HERL-4{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 100%;
+            margin: 0px auto;
+        }
+        .LOFmain-1 {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%px;
+            margin: auto;
+            padding: 20px 0px;
+        }
+        .thumbnail-img img{
+        
+        width: 450px;
+        height: 300px;
+        }
+}
